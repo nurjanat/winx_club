@@ -4,14 +4,16 @@ def guess_number():
     print(number1)
     tries = 0
     while tries < 5:
-        tries += 1
         check = int(input("введите цифру"))
         if check > number1:
             print(">")
         elif number1 < check:
             print("<")
-        else:
+        elif number1 == check:
             print("lucky")
             break
+        tries += 1
+    if tries == 5:
+        print("game over")
 
 guess_number()
