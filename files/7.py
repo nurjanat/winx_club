@@ -1,12 +1,17 @@
-def guess_number(number):
-    tries = 0
+def guess_number():
     import random
-    number1 = random.randint(1,10) + random.randint(1,10)
-    i = 0
+    number1 = random.randint(1,10)
+    print(number1)
+    tries = 0
     while tries < 5:
-         check = input("введите цифру")
-        if number1 == number:
-            return "lucky"
+        tries += 1
+        check = int(input("введите цифру"))
+        if check > number1:
+            print(">")
+        elif number1 < check:
+            print("<")
         else:
-            return "<",">"
-print(guess_number(9))
+            print("lucky")
+            break
+
+guess_number()
