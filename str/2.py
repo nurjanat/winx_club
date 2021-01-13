@@ -1,10 +1,12 @@
-# string1 = "nurjanat akylbek jarkynai gera baiel"
+# string1 = "nurjanat"
 # x = "nurjanat"
-# def del():
-#     if x in string1:
-#         string1.replace("x","")
-#     else:
-#         print("not ok")
+def delete(string1,x):
+    if x in string1:
+        string1 =string1.replace(x,"")
+        print(string1)
+    else:
+        print("not ok")
+delete('nurjanat','a')
 
 
 
@@ -30,12 +32,12 @@
 # print(str1.swapcase())
 
 
-string1 = "here and now"
+# string1 = "here and now"
 
-try:
-    print(string1.index('ujikolp;'))
-except ValueError:
-    print(1)
+# try:
+#     print(string1.index('ujikolp;'))
+# except ValueError:
+#     print(1)
 
 
 
