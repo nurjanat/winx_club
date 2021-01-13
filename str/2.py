@@ -2,7 +2,7 @@
 # x = "nurjanat"
 # def del():
 #     if x in string1:
-#         string1.replace("nurjanat","")
+#         string1.replace("x","")
 #     else:
 #         print("not ok")
 
@@ -30,8 +30,12 @@
 # print(str1.swapcase())
 
 
-# string1 = "here and now"
-# print(string1.index('h'))
+string1 = "here and now"
+
+try:
+    print(string1.index('ujikolp;'))
+except ValueError:
+    print(1)
 
 
 
