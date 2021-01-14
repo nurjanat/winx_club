@@ -1,7 +1,7 @@
 list1 = ['blue','red','white','green','5']
 # loop for перебират наш список переборщик
-# for color in list1:
-#     print(color)
+for color in list1:
+    print(color)
 
 
 # for i in range(100,200): #list1 = [100,101,102....]
@@ -26,6 +26,7 @@ list1 = ['blue','red','white','green','5']
 
 # for i in 'blue','red','white','green','5':
 #     print(i)
+
 
 # тут он переходит на следующее условие if если несколько if идет в ряду все последовательно сработают
 
